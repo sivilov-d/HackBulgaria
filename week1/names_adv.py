@@ -6,6 +6,5 @@ while count <= 2:
     count += 1
     
     
-print("Your full name is: ")
-for name in index_names:
-    print (name) ,
+print("Your full name is: " + " ".join(index_names))
+
